@@ -3,10 +3,12 @@ import Input from '../input';
 import Button from '../button';
 import { FaRegPlusSquare } from 'react-icons/fa';
 
-const Form = ({ handleSubmit }) => {
+import './index.css'
+
+const Form = ({ handleSubmit, handleChange, task, placeholder }) => {
 	return (
-		<form onSubmit={handleSubmit} action="#">
-			<Input type="text" />
+		<form onSubmit={handleSubmit} action="#" className="wrap">
+			<Input type="text" handleChange={handleChange} value={task} placeholder={placeholder} />
 			<Button><FaRegPlusSquare/></Button>
 		</form>
 	);
