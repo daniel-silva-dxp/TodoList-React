@@ -1,0 +1,30 @@
+button {
+    outline: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    -webkit-apparance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+button.btn {
+    display: inline-block;
+    border: 1px solid #232323;
+    border-radius: 0 3px 3px 0;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+button.btn-medium {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    font-size: 12px;
+}
+button.btn-dark {
+    color: #fff;
+    background: #232323;
+}
+.btn-dark:hover {
+    background: #fff;
+    color: #232323;
+}

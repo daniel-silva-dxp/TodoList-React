@@ -3,7 +3,7 @@ import './index.css'
 
 const Button = ({ method, handleClick, children}) => {
     return (
-        <button type={method} onClick={handleClick}>{children}</button>
+        <button type={method} onClick={handleClick} className="btn btn-medium btn-dark">{children}</button>
     );
 };
 
