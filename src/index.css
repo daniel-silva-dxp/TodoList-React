@@ -39,3 +39,16 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 7px !important;
+}
+::-webkit-scrollbar-track {
+	background: #232323!important;
+}
+::-webkit-scrollbar-thumb {
+	background: #232323 !important;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #28f5be !important;
+}
