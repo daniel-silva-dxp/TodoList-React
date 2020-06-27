@@ -1,0 +1,16 @@
+.tags {
+	color: #8c8c8c;
+	position: fixed;
+	bottom: 0;
+	left: 40px;
+	font-size: 18px;
+	font-family: 'La Belle Aurore', cursive;
+	z-index: 800;
+}
+.top-tags {
+	bottom: auto;
+	top: 70px;
+}
+.bottom-tags {
+	bottom: 20px;
+}
