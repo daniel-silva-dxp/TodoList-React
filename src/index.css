@@ -12,9 +12,11 @@
 	vertical-align: baseline;
 }
 html,
-body {
+body,
+.main {
 	color: #1e1e1e;
 	background-color: #f8f8f8;
+	height: table;
 }
 body {
 	font-family: 'Roboto', sans-serif;
@@ -44,7 +46,7 @@ a {
 	width: 7px !important;
 }
 ::-webkit-scrollbar-track {
-	background: #232323!important;
+	background: #232323 !important;
 }
 ::-webkit-scrollbar-thumb {
 	background: #232323 !important;
