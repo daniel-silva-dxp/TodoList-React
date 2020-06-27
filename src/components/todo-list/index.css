@@ -1,55 +1,56 @@
 .my-tasks {
-    font-family: "Roboto Mono", monospace;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+	font-family: "Roboto Mono", monospace;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
 }
 .my-tasks.wrap {
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 3px;
-    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
 	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
 }
 .my-tasks li {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
 }
 .my-tasks li:hover {
-    background: #f8f8f8;
+	background: #f8f8f8;
 }
 .my-tasks li div {
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 .edit,
 .delete {
-    cursor: pointer;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
 }
 .edit {
-    color: #232323;
+	color: #232323;
 }
 .delete {
-    color: #f04c64;
+	color: #f04c64;
 }
 .edit:hover,
 .delete:hover {
-    color: #b4b4b4;
+	color: #b4b4b4;
 }
 .no-tasks {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    border: 1px solid #f8f8f8;
-    border-radius: 2px;
-    color: #f04c64;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	border: 1px solid #f8f8f8;
+	border-radius: 2px;
+	color: #f04c64;
 }
