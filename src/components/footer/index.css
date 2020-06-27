@@ -1,23 +1,23 @@
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10vh;
+	width: 100%;
+	height: 80px;
+	position: relative;
+	bottom: 0;
+	left: 0;
 }
 footer.wrap {
-    background-color: #232323;
-    color: #fff
+	background-color: #232323;
+	color: #fff;
 }
 footer.wrap > .container {
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 footer.wrap > .container h4 {
-    margin-left: -50px;
-    font-size: 13px;
-    line-height: 13px;
+	margin-left: -50px;
+	font-size: 13px;
+	line-height: 13px;
 }
